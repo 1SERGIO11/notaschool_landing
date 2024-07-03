@@ -1,25 +1,111 @@
-html, body {
+html, body, .app-wrapper {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	background-color: #1E1B1B;
+	height: 100%;
+	width: 100%;
 }
 
 .header {
-	
-}
-
-.app-wrapper {
-	background-color: #1E1B1B;
-
+	/* Стили для хедера */
 }
 
 .logo {
-  display: flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .logo img {
 	padding: 25px 0;
-    width: 200px
+	width: 200px;
+}
+
+.top-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-text h5 {
+	color: #C8C8C8;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.top-text h1 {
+	background: linear-gradient(45deg, #FF2323 0%, #B2A3A3 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #ff7e5f; /* Цвет для браузеров без поддержки градиента */
+	font-weight: 800;
+	font-size: 37px;
+	margin: 0;
+}
+
+.mediator {
+	margin: 0; /* Убираем отступы по умолчанию */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mediator-inner {
+	background-image: url("./images/mediator.svg");
+	background-size: contain;
+	background-repeat: no-repeat; /* Без повторения изображения */
+	background-position: center center; /* Позиция изображения */
+	min-height: 300px;
+	margin-top: 31px;
+}
+
+.mediator-inner h6 {
+	font-weight: 700;
+	font-size: 16px;
+	color: #D6D6D6;
+	margin: 0;
+}
+
+.mediator-inner h2 {
+	font-weight: 800;
+	font-size: 26px;
+	color: #D6D6D6;
+	margin: 0;
+}
+
+.mediator-inner p {
+	margin-top: 34px;
+	font-weight: 700;
+	font-size: 16px;
+	color: #D6D6D6;
+	max-width: 50%;
+}
+
+.mediator-top-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 36px;
+}
+
+.mediator-bottom-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mediator-bottom-text p {
+	margin: 0;
+	margin-top: 34px;
+}
+
+/* Стили для футера */
+.footer {
+	/* Добавьте стили для футера здесь */
 }
