@@ -216,7 +216,27 @@ margin:0;
     color: #ECECEC;
 }
 
-
+.andr{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top:-10px;
+}
+.andr h5{
+    position: relative;
+    left:-15%;
+    top: -80px;
+    color: #D4D4D4;
+    font-weight: 800;
+    font-size: 20px;
+    white-space: nowrap;
+    text-align: center;
+}
+.andr img{
+    width: 70%;
+    height: auto;
+}
 .footer {
 	
 }
