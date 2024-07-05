@@ -1,4 +1,6 @@
-html, body, .app-wrapper {
+html,
+body,
+.app-wrapper {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -9,7 +11,7 @@ html, body, .app-wrapper {
 }
 
 .header {
-	/* Стили для хедера */
+	
 }
 
 .logo {
@@ -41,14 +43,14 @@ html, body, .app-wrapper {
 	background: linear-gradient(45deg, #FF2323 0%, #B2A3A3 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	color: #ff7e5f; /* Цвет для браузеров без поддержки градиента */
+	color: #ff7e5f;
 	font-weight: 800;
 	font-size: 37px;
 	margin: 0;
 }
 
 .mediator {
-	margin: 0; /* Убираем отступы по умолчанию */
+	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -57,8 +59,8 @@ html, body, .app-wrapper {
 .mediator-inner {
 	background-image: url("./images/mediator.svg");
 	background-size: contain;
-	background-repeat: no-repeat; /* Без повторения изображения */
-	background-position: center center; /* Позиция изображения */
+	background-repeat: no-repeat;
+	background-position: center center;
 	min-height: 300px;
 	margin-top: 31px;
 }
@@ -105,7 +107,116 @@ html, body, .app-wrapper {
 	margin-top: 34px;
 }
 
-/* Стили для футера */
+.button-register {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.button-register--inner {
+	background: linear-gradient(0deg, #E84949, #E84949), linear-gradient(199.75deg, #CB0000 -134.7%, #FF8484 155.59%);
+	border-radius: 10px;
+	padding: 13px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-register--inner span {
+	margin-right: 10px;
+}
+
+.button-register a {
+	text-decoration: none;
+	color: #6C0000;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.learning-way{
+	background-repeat: no-repeat;
+    margin-top: 41px;
+}
+.learning-way img{
+    width: 100%;
+}
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: -120px; 
+}
+
+.me img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.me h5 {
+    position: absolute;
+    top: 20%; 
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #D4D4D4;
+    font-weight: 800;
+    font-size: 20px;
+    white-space: nowrap; 
+    text-align: center;
+}
+
+.box-system{
+    margin-top: -120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contaner{
+
+    width: 90%;
+    height: 51px;
+    background: #393939;
+    border-radius: 9px;
+}
+
+.contaner h3{
+position: relative;
+width: 291px;
+height: 20px;
+left: 0;
+font-weight: 800;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding: 16px;
+margin:0;
+}
+
+.details{
+    display: flex;
+    flex-direction: column; /* Размещаем элементы вертикально */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    gap: 6px; /* Расстояние между элементами */
+    padding-top: 17px;
+}
+
+.box{
+    width: 90%; /* Ширина боксов равна 100% ширины родительского контейнера */
+    background-color: #606060;
+    text-align: left;
+    border-radius: 9px;
+}
+
+.box p{
+    margin: 11px;
+    color: #ECECEC;
+}
+
+
 .footer {
-	/* Добавьте стили для футера здесь */
+	
 }
