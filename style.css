@@ -259,6 +259,67 @@ margin:0;
 .guitar img{
     width: 100%;
 }
+.top-review{
+
+}
+.top-review h3{
+    color: #D4D4D4;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {
+    width: 50px; /* Задайте нужный размер стрелок */
+    height: 50px; /* Задайте нужный размер стрелок */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 75%;
+    height: 40vh;
+    background: #DFDFDF;
+    box-shadow: 4px 4px 4px rgba(176, 176, 176, 0.25);
+    border-radius: 16px;
+}
+
+.circle-image {
+    position: relative;
+    background-image: url("./images/girl.jpg");
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.reviewer-name h5 {
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10%;
+}
+
+.text-review p {
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 0 10px;
+    text-align: center;
+}
+
 
 .footer {
 	
