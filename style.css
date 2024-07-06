@@ -233,10 +233,33 @@ margin:0;
     white-space: nowrap;
     text-align: center;
 }
+.course{
+    position: relative;
+    margin-top:-20px;
+    z-index: 9;
+    font-size: 18px;
+}
+.course h3{
+    font-size: 18px;
+}
+.grad{
+    background: linear-gradient(270deg, #FB852F 0%, #E44730 100%);
+}
 .andr img{
     width: 70%;
     height: auto;
 }
+
+.guitar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guitar img{
+    width: 100%;
+}
+
 .footer {
 	
 }
