@@ -417,6 +417,8 @@ border-radius: 7px;
     justify-content: center;
     align-items: center;
     margin-top: 12px;
+    border: none;
+    background-color: transparent;
 }
 .btn-reg a{
     text-decoration: none;
@@ -430,8 +432,67 @@ font-size: 20px;
 line-height: 24px;
 
 color: #E9E9E9;
+}
+.top-donate{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-donate h3{
+    color: #D4D4D4;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top:  34px; 
+    margin-bottom: 0;
+}
+.donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate a{
+    text-decoration: none;
+}
+.donate--inner{
+width: 333px;
+height: 58px;
 
+background: #B6B6B6;
+box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.25);
+border-radius: 9px;
+display: flex;
+margin-top: 10px;
+}
+.donate--inner img{
+    width: 49px;
+    height: 41px;
+    margin: 10px;
+}
+.donate h5{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+margin: 0;
+margin-left: 10px;
 
+color: #323232;
+}
+.soc-net{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.soc-net a{
+}
+.soc-net img{
+width: 41px;
+height: 41px;
+margin: 15px;
 }
 .footer {
 	
