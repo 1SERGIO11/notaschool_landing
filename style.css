@@ -316,19 +316,18 @@ html, body, .app-wrapper {
     align-items: center;
     position: relative;
     width: 100%;
-    height: 40vh;
     background: #DFDFDF;
     box-shadow: 4px 4px 4px rgba(176, 176, 176, 0.25);
     border-radius: 16px;
 }
 
 .circle-image {
-    position: relative;
     background-image: url("./images/girl.jpg");
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background-size: cover;
+    margin-top: 10px;
 }
 
 .reviewer-name h5 {
