@@ -40,7 +40,7 @@
             </div>
 
             <div class="button-register">
-                <a href="#">
+                <a href="#register-form">
                     <div class="button-register--inner">
                         <span>ЗАРЕГИСТРИРОВАТЬСЯ НА КУРС</span>
                         <img src="./images/lightning.svg" alt="img">
@@ -54,7 +54,7 @@
 
             <div class="me">
                 <h5>Сергей Уткин</h5>
-                <img src="./images/sergey.png" alt="">
+                <img src="./images/Sergio.png" alt="">
             </div>
 
             <div class="box-system">
@@ -96,20 +96,36 @@
             <div class="top-review">
                 <h3>Уже научились играть</h3>
             </div>
-            <div class="review">
+            <div class="review-container">
                 <div class="left">
                     <a href="#">
                         <img src="images/left.svg" alt="Left arrow">
                     </a>
                 </div>
-                <div class="box-review">
-                    <div class="circle-image"></div>
-                    <div class="reviewer-name">
-                        <h5>Диана Цветкова</h5>
+                <div class="review-carousel">
+                    <div class="review">
+                        <div class="box-review">
+                            <div class="circle-image" style="background-image: url('images/girl.jpg');"></div>
+                            <div class="reviewer-name">
+                                <h5>Диана Цветкова</h5>
+                            </div>
+                            <div class="text-review">
+                                <p>NotaSchool превзошла все мои ожидания! Благодаря телеграмм-боту и сообществу учеников, обучение прошло легко и интересно. Дополнительные материалы помогли быстро освоить основы гитары. Очень рекомендую!</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text-review">
-                        <p>NotaSchool превзошла все мои ожидания! Благодаря телеграмм-боту и сообществу учеников, обучение прошло легко и интересно. Дополнительные материалы помогли быстро освоить основы гитары. Очень рекомендую!</p>
+                    <div class="review">
+                        <div class="box-review">
+                            <div class="circle-image" style="background-image: url('images/Ivan.jpg');"></div>
+                            <div class="reviewer-name">
+                                <h5>Иван Петров</h5>
+                            </div>
+                            <div class="text-review">
+                                <p>Обучение в NotaSchool было фантастическим! Я никогда не думал, что смогу так быстро освоить гитару. Преподаватели очень поддерживали и помогали на каждом шагу. Курсы действительно стоящие, и я рекомендую их всем, кто хочет научиться играть на гитаре.</p>
+                            </div>
+                        </div>
                     </div>
+                    <!-- Добавьте дополнительные отзывы здесь -->
                 </div>
                 <div class="right">
                     <a href="#">
@@ -117,7 +133,7 @@
                     </a>
                 </div>
             </div>
-            <div class="register-form">
+            <div class="register-form" id="register-form">
                 <div class="form-container">
                     <form action="">
                         <div class="top-form">
@@ -162,6 +178,7 @@
             </div>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
