@@ -315,7 +315,7 @@ html, body, .app-wrapper {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100%;
+
     background: #DFDFDF;
     box-shadow: 4px 4px 4px rgba(176, 176, 176, 0.25);
     border-radius: 16px;
