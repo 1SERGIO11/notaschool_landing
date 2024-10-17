@@ -359,11 +359,14 @@ html, body, .app-wrapper {
     justify-content: center;
     align-items: flex-start;
     position: relative;
-    width: 85%;
-    height: 269px;
     background: #DFDFDF;
-    box-shadow: 4px 4px 4px rgba(176, 176, 176, 0.25);
+    box-shadow: 4px 4px 4px rgba(92, 92, 92, 0.25);
     border-radius: 16px;
+}
+
+.form-container a{
+    text-decoration: none;
+    color: black;
 }
 
 .course-grad {
