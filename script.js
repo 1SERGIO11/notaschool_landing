@@ -48,10 +48,5 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const walk = (x - startX) * 3; // Умножьте на 3 для увеличения скорости прокрутки
         carousel.scrollLeft = scrollLeft - walk;
     });
-    const registerLink = document.querySelector('.button-register a');
-    registerLink.addEventListener('click', (e) => {
-        e.preventDefault();
-        const target = document.querySelector('#register-form');
-        target.scrollIntoView({ behavior: 'smooth' });
-    });
+    
 });
