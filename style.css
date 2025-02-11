@@ -14,6 +14,83 @@ html, body {
     background-color: transparent;
   }
 
+  #desktopMessage {
+    display: none;
+  }
+  .app-wrapper {
+    display: block;
+  }
+  /* Для десктопов (например, при ширине экрана 1024px и больше) */
+  @media screen and (min-width: 1024px) {
+    /* Скрываем мобильный контент */
+    .app-wrapper {
+      display: none;
+    }
+    /* Показываем десктопное сообщение */
+    #desktopMessage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('./images/Back-desc.png') no-repeat center center;
+      background-size: cover;
+      color: #FFFFFF;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      position: relative;
+      padding: 20px;
+    }
+    /* Оформление обёртки */
+    #desktopMessage .desktop-wrapper {
+      background-color: rgba(61, 61, 61, 0.7); /* полупрозрачный серый */
+      border-radius: 15px; /* скруглённые углы */
+      padding: 20px;
+      max-width: 600px; /* можно задать нужную максимальную ширину */
+      margin: 0 auto;   /* центрирование контейнера */
+    }
+    /* Логотип в десктопном блоке */
+    #desktopMessage .desktop-header {
+      margin-bottom: 20px;
+    }
+    #desktopMessage .desktop-header img {
+      max-width: 200px; 
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 25px;
+    }
+    /* Стили внутреннего контента */
+    #desktopMessage .desktop-content {
+      max-width: 500px;
+    }
+    #desktopMessage .desktop-content h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    #desktopMessage .desktop-content p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      line-height: 1.4em;
+    }
+    /* Стили кнопки */
+    #desktopMessage .tg-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #FF2323;
+      color: #FFFFFF;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    #desktopMessage .tg-button:hover {
+      background-color: #D02121;
+    }
+  }
+  
+
 .header {
     /* Стили для хедера */
 }
@@ -640,7 +717,10 @@ input::placeholder {
     margin: 15px;
     position: relative;
 }
-
+.tik-tok{
+    width: 50px !important;
+    height: 50px !important;
+}
 .footer {
     /* Стили для футера */
 }
